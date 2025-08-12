@@ -1277,7 +1277,7 @@ namespace ObjectRepository.PageObjects.Common
         /// method to check the checkbox
         /// </summary>
         /// <param name="labelText"></param>
-        public void ClickCheckBox(string labelText)
+        public void ClickOnLinkText(string labelText)
         {
             this.ClickElement(this.GetBy(this.LabelPartialXpath, labelText));
         }
