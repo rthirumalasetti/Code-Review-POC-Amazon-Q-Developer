@@ -2566,11 +2566,7 @@ namespace ObjectRepository.PageObjects.Common
             this.ClickElement(PageLoadElement);
         }
 
-        /// <summary>
-        /// Checking that the button is enabled
-        /// <param name="buttonname"></param>
-        /// </summary>
-        /// <returns></returns>
+      
         public bool IsButtonEnabledInTestingPage(String buttonname)
         {
             if (this.WaitUntilElementAppears(this.GetBy(this.ButtonPartialXPath, buttonname), 5))
