@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SampleApp
 {
-    class Program
+    class program
     {
         static void Main(string[] args)
         {
@@ -23,7 +23,7 @@ namespace SampleApp
             DoNothing();
         }
 
-        static int AddNumbers(int a, int b)
+        static int addNumbers(int a, int b)
         {
             return a + b;
         }
