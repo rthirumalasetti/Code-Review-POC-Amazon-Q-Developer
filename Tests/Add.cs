@@ -23,7 +23,7 @@ namespace SampleApp
             DoNothing();
         }
 
-        public static int addNumbers(int a, int b)
+        public static int AddNumbers(int a, int b)
         {
             return a + b;
         }
