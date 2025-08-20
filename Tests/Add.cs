@@ -28,5 +28,10 @@ namespace SampleApp
             return a + b;
         }
 
+          public static int AddTwoNumbers(int a, int b)
+        {
+            return a + b;
+        }
+
         static void DoNothing()
         {
