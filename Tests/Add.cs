@@ -8,7 +8,7 @@ namespace SampleApp
         static void Main(string[] args)
         {
             var Result = AddNumbers(5, 10);
-            Console.WriteLine("Result: " + result);
+            Console.WriteLine("Result: " + Result);
 
             var list = new List<string>();
             list.Add("Item1");
