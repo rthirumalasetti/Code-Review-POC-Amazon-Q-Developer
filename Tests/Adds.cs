@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace SampleApp
+namespace SampleApps
 {
-    class program
+    class programs
     {
         static void Main(string[] args)
         {
