@@ -27,7 +27,7 @@ namespace SampleApp
 
         public static int AddNumbers(int a, int b)
         {
-            return a + b;
+            return a / b;
         }
 
         public static int AddTwoNumbers(int a, int b)
